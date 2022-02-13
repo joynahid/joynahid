@@ -1,5 +1,6 @@
 ```python
 from nahid import INahid
+import subprocess
 
 class JoyNahid(INahid):
     def __init__(self):
@@ -12,6 +13,14 @@ class JoyNahid(INahid):
         self.email = "nahidhasan282@gmail.com"
         self.location = "Bangladesh"
         self.operating_system = "Ubuntu Linux"
+        
+        self.programming_languages = [
+            "C",
+            "C++",
+            "Go",
+            "Typescript",
+            "NodeJS"
+        ]
         
     def get_interests(self) -> str:
         return "Everything about Coding"
