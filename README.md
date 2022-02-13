@@ -1,6 +1,5 @@
 ```python
 from nahid import INahid
-import subprocess
 
 class JoyNahid(INahid):
     def __init__(self):
