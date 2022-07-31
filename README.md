@@ -7,20 +7,18 @@ class JoyNahid(INahid):
         self.aliases = [
             "joynahid",
             "joynahiid",
-            "nahidhasan282"
+            "nahidhasan282",
+            "nahidhq"
         ]
-        self.email = "nahidhasan282@gmail.com"
+        self.email = "info@nahidhq.com"
         self.location = "Bangladesh"
-        self.operating_system = "Ubuntu Linux"
         
         self.programming_languages = [
+            "Python",
             "C",
             "C++",
             "Go",
             "Typescript",
             "NodeJS"
         ]
-        
-    def get_interests(self) -> str:
-        return "Everything about Coding"
 ```
