@@ -17,6 +17,7 @@ class JoyNahid(INahid):
             "Python",
             "C",
             "C++",
+            "C#",
             "Go",
             "Typescript",
             "NodeJS"
